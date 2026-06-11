@@ -1,0 +1,63 @@
+{
+  "mapId": 1,
+  "mapName": "Desert",
+  "nodes": [
+    {
+      "id": 0,
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "type": "spawn"
+    },
+    {
+      "id": 1,
+      "x": 10,
+      "y": 0,
+      "z": 5,
+      "type": "path"
+    },
+    {
+      "id": 2,
+      "x": -5,
+      "y": 5,
+      "z": 10,
+      "type": "jump_start"
+    },
+    {
+      "id": 3,
+      "x": -3,
+      "y": 8,
+      "z": 12,
+      "type": "jump_end"
+    }
+  ],
+  "jumpPoints": [
+    {
+      "from": {
+        "x": -5,
+        "y": 5,
+        "z": 10
+      },
+      "to": {
+        "x": -3,
+        "y": 8,
+        "z": 12
+      }
+    }
+  ],
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "description": "Sample waypoints for Desert. Record actual data during gameplay."
+}
